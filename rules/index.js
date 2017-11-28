@@ -2,9 +2,9 @@
 
 module.exports = {
   'extends': [
-    'eslint:recommended',
-    'airbnb',
-    'prettier'
+    'eslint/conf/eslint-recommended',
+    'eslint-config-airbnb',
+    'eslint-config-prettier'
   ].map(require.resolve),
   'parser': 'babel-eslint',
   'parserOptions': {

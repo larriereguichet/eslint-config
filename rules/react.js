@@ -2,8 +2,7 @@
 
 module.exports = {
   'extends': [
-    'prettier/react',
-    'plugin:react/recommended'
+    'eslint-config-prettier/react',
   ].map(require.resolve),
   'parser': 'babel-eslint',
   'parserOptions': {
