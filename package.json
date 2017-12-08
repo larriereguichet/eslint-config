@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lag",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Eslint configurations used @larriereguichet",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.2"
   },
   "peerDependencies": {
-    "babel-eslint": "~8.0",
-    "prettier-eslint-cli": "~4.0"
+    "babel-eslint": "^8.0",
+    "prettier-eslint-cli": "^4.0"
   }
 }
