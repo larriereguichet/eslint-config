@@ -55,6 +55,8 @@ module.exports = {
     'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
     'no-bitwise': 'warn',
     'camelcase': 'warn',
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    'no-console': 'warn',
+    'import/no-extraneous-dependencies': 'warn'
   }
 }
