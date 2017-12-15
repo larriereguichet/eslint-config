@@ -8,6 +8,7 @@ module.exports = {
     'console': false
   },
   'rules': {
-    'no-console': ['error', { 'allow': ['warn', 'error', 'info'] }]
+    'prettier/prettier': ['warn'],
+    'no-console': ['warn']
   }
 }
